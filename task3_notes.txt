@@ -1,0 +1,4 @@
+1. When the direction was Both, the customer table showed only Ali Khan instead of all four customers, because the Laptop filter travelled Products -> Sales -> Customers.
+2. The customer with no orders is Hina (C04).
+3. The product that was never sold is Monitor.
+4. Computers Sales shows 900 on the Accessories row because CALCULATE replaces the row's Category filter with Category = "Computers", so it ignores the Accessories filter of that row.
